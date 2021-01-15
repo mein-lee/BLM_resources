@@ -1,0 +1,63 @@
+h1, h1 + ul, table {
+  text-align: center;
+  font-weight: 500;
+}
+
+body {
+  background-color: papayawhip;
+  margin-left: 20px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+table {
+  border: 2px solid black;
+  border-collapse: collapse;
+  width: 80%;
+  margin-bottom: 20px;
+  font-size: small;
+  margin-left: 10%;
+}
+
+th, td {
+  border: 1.5px solid black;
+  padding: 5px;
+  text-align: center;
+}
+
+th {
+  width: 90px;
+  background-color: #8d3030;
+  color: papayawhip;
+}
+
+h3 {
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+
+.btn-outline-info:hover {
+  background-color: springgreen;
+}
+
+.btn-outline-info:hover a:hover {
+  color: black;
+}
+
+.yes {
+  background-color: gold;
+}
+
+.yes, #visual, #nonfic {
+  margin-left: 10%;
+}
+
+h6 {
+  margin-bottom: 25px;
+}
+
+.row > div {
+  padding: 20px;
+}

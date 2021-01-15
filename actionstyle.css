@@ -1,0 +1,43 @@
+body {
+  background-color: papayawhip;
+  margin-left: 20px;
+}
+
+h1, h1 + ul {
+  text-align: center;
+  font-weight: 500;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container > div {
+  background-color: wheat;
+  font-size: 14px;
+  font-weight: 500;
+  margin: 20px;
+  padding: 20px;
+  width: 200px;
+}
+
+h3 {
+  margin-top: 50px;
+}
+
+.btn-outline-info:hover {
+  background-color: springgreen;
+}
+
+.btn-outline-info:hover a:hover {
+  color: black;
+}
+
+.row > div {
+  padding: 20px;
+}

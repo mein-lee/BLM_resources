@@ -1,0 +1,44 @@
+body {
+  background-color: papayawhip;
+}
+
+h1, h1 + ul {
+  text-align: center;
+  font-weight: 500;
+}
+
+ul {
+  list-style-type: none;
+}
+
+table {
+  border: none;
+}
+
+td {
+  padding: 40px;
+}
+
+.lists > li::before {
+  content: "\1F48C";
+}
+
+h3 {
+  margin-top: 50px;
+}
+
+h6 {
+  margin-bottom: 25px;
+}
+
+.btn-outline-info:hover {
+  background-color: springgreen;
+}
+
+.btn-outline-info:hover a:hover {
+  color: black;
+}
+
+.row > div {
+  padding: 20px;
+}

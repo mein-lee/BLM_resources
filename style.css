@@ -1,0 +1,94 @@
+body {
+  background-color: papayawhip;
+  margin-left: 20px;
+}
+
+@media (min-width: 500px) {
+  body {
+    background-color: papayawhip;
+  }
+}
+
+@media (max-width: 499px) {
+  body {
+    background-color: wheat;
+  }
+}
+
+h1 {
+  text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-style: italic;
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+.bold {
+  font-size: 23px;
+  font-style: italic;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h6 {
+  margin-top: 30px;
+}
+
+.alert-warning {
+  margin: 60px;
+}
+
+#names, #buttons {
+  background-color: #8d3030;
+  margin: 60px;
+  color: papayawhip;
+  text-align: justify;
+  font-size: small;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-stretch: ultra-expanded;
+  font-weight: bolder;
+  padding: 45px;
+  border: 1px solid black;
+}
+
+#names::selection {
+  color: #8d3030;
+}
+
+.minors::selection {
+  color: black;
+  background-color: tomato;
+}
+
+#kids {
+  color: #8d3030;
+  font-weight: 700;
+}
+
+.btn-outline-dark:hover {
+  background-color: springgreen;
+}
+
+.btn-outline-dark:hover a:hover {
+  color: black !important;
+}
+
+#buttons {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#buttons div {
+  margin: auto;
+  margin-bottom: 15px !important;
+  align-content: center;
+}
+
+#buttons div a {
+  color: papayawhip;
+  font-weight: bold;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.row > div {
+  padding: 20px;
+}
