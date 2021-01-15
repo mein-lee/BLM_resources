@@ -6,7 +6,7 @@ Student Name: Mein Lee
 
 Project Name: How to actively fight against racism
 
-My project is a webpage with helpful resources on the Black Lives Matter movement, along with 
+My project is a webpage with helpful online and offline resources, links, and information on the Black Lives Matter movement, along with 
 other information on combating racial discrimination, police brutality, and injustice.
 
 ## Overview
