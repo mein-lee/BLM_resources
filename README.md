@@ -3,6 +3,7 @@
 Web Programming with Python and JavaScript
 
 Student Name: Mein Lee
+
 Project Name: How to actively fight against racism
 
 My project is a webpage with helpful resources on the Black Lives Matter movement, along with 
@@ -33,7 +34,7 @@ Below are the detailed components of this project, along with their correspondin
 - Six images.
 - Both are in the form of unordered lists with customized bullets. 
 
-3. Educate.htm l:
+3. Educate.html:
 - Movies, TV Shows, Books, Podcasts, Speeches, Documentaries and other relevant education information on racial injustice,
 - 18 images that utilizes Bootstrap's grid model for layout purposes. 
 - These information are put into tables and labelled accordingly. 
